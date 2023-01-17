@@ -1,0 +1,368 @@
+{
+  "id": "5c8aea26-5d71-495c-9cf1-fc0e5955e26c",
+  "version": "2.0",
+  "name": "Testing Gamanza",
+  "url": "https://gamanza.com",
+  "tests": [{
+    "id": "5f595d3f-0218-4244-b275-b1a798ac39e3",
+    "name": "Testing the buttons",
+    "commands": [{
+      "id": "b0198a9f-c770-4517-9953-cd2da45f6bde",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "954fad28-c5d9-4808-9ebc-1feb87ac9904",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1217x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53c868e1-245d-42a5-a59b-279cd2d90f79",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#nav-menu-item-4369 .edgtf-item-text",
+      "targets": [
+        ["css=#nav-menu-item-4369 .edgtf-item-text", "css:finder"],
+        ["xpath=//li[@id='nav-menu-item-4369']/a/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cca19706-dfac-4f78-b220-6ecbaae112e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav-menu-item-4369 .edgtf-item-text",
+      "targets": [
+        ["css=#nav-menu-item-4369 .edgtf-item-text", "css:finder"],
+        ["xpath=//li[@id='nav-menu-item-4369']/a/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba28f376-279f-404c-a50e-c041d8a7542d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav-menu-item-4367 .edgtf-item-text",
+      "targets": [
+        ["css=#nav-menu-item-4367 .edgtf-item-text", "css:finder"],
+        ["xpath=//li[@id='nav-menu-item-4367']/a/span/span/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "984b5376-9f7b-42f4-b9a7-cab74abecf72",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav-menu-item-4374 .edgtf-item-text",
+      "targets": [
+        ["css=#nav-menu-item-4374 .edgtf-item-text", "css:finder"],
+        ["xpath=//li[@id='nav-menu-item-4374']/a/span/span/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8778785-2c5a-49fd-a2d5-94c4d53e92c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav-menu-item-4466 .edgtf-item-text",
+      "targets": [
+        ["css=#nav-menu-item-4466 .edgtf-item-text", "css:finder"],
+        ["xpath=//li[@id='nav-menu-item-4466']/a/span/span/span", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "420ec9fb-8a68-4b58-87b3-fac2bb585c91",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav-menu-item-4373 .edgtf-item-text",
+      "targets": [
+        ["css=#nav-menu-item-4373 .edgtf-item-text", "css:finder"],
+        ["xpath=//li[@id='nav-menu-item-4373']/a/span/span/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13589ff9-6b8d-4ecf-b56a-5c6ce5b832ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav-menu-item-4994 .edgtf-item-text",
+      "targets": [
+        ["css=#nav-menu-item-4994 .edgtf-item-text", "css:finder"],
+        ["xpath=//li[@id='nav-menu-item-4994']/a/span/span/span", "xpath:idRelative"],
+        ["xpath=//li[6]/a/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0c146e7-71d9-4ac4-946c-784b1808e8d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav-menu-item-4391 > a .edgtf-item-inner",
+      "targets": [
+        ["css=#nav-menu-item-4391 > a .edgtf-item-inner", "css:finder"],
+        ["xpath=//li[@id='nav-menu-item-4391']/a/span/span", "xpath:idRelative"],
+        ["xpath=//li[7]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4aa8435-45c1-4d80-b464-864f810afdec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.edgtf-menu-area .edgtf-light-logo",
+      "targets": [
+        ["css=.edgtf-menu-area .edgtf-light-logo", "css:finder"],
+        ["xpath=//img[@alt='light logo']", "xpath:img"],
+        ["xpath=//img[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d751c4ab-36a0-4adb-8db3-9106fd13fe2f",
+    "name": "Testing the linked-in button",
+    "commands": [{
+      "id": "d27b9b42-7630-475a-b5f0-f4a9b50cba84",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a77f93e1-4279-4071-9306-ede1594eeb97",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1217x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c023c3db-a544-4abe-bfc7-6bb7edde761a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.edgtf-social-icon-widget",
+      "targets": [
+        ["css=.edgtf-social-icon-widget", "css:finder"],
+        ["xpath=//div/div[2]/div/a/span", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win600",
+      "windowTimeout": 2000
+    }, {
+      "id": "09832dbf-6f2d-4287-bafc-3519dfddc4ab",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win600}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "23a6466c-79ac-4107-b5ba-8d0b0ea06bff",
+    "name": "Testing the drop-down about button",
+    "commands": [{
+      "id": "cf4af4c9-ba5c-47e3-b57d-d4b148d3601c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8520213-5e7d-4646-84b8-ee1a71ee5b2b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1217x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a49f210c-657f-4779-aa99-8b4c8a4d72a0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#nav-menu-item-4391 .edgtf-menu-icon",
+      "targets": [
+        ["css=#nav-menu-item-4391 .edgtf-menu-icon", "css:finder"],
+        ["xpath=//li[@id='nav-menu-item-4391']/a/span/span/span/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55350bde-ba67-4fc3-b91f-45046deef79c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#nav-menu-item-4391 .edgtf-menu-icon",
+      "targets": [
+        ["css=#nav-menu-item-4391 .edgtf-menu-icon", "css:finder"],
+        ["xpath=//li[@id='nav-menu-item-4391']/a/span/span/span/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b7f8d98-f90d-4633-93ea-a3008be88d60",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav-menu-item-4375 .edgtf-item-text",
+      "targets": [
+        ["css=#nav-menu-item-4375 .edgtf-item-text", "css:finder"],
+        ["xpath=//li[@id='nav-menu-item-4375']/a/span/span/span", "xpath:idRelative"],
+        ["xpath=//div/ul/li/a/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "efa82185-863e-4b6b-911a-a41b4b271301",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=News",
+      "targets": [
+        ["linkText=News", "linkText"],
+        ["css=#nav-menu-item-4376 > a", "css:finder"],
+        ["xpath=//li[@id='nav-menu-item-4376']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://gamanza.com/news/')]", "xpath:href"],
+        ["xpath=//div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'News')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd5ee464-5d37-459e-8030-e999aa79ad22",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav-menu-item-4370 .edgtf-item-text",
+      "targets": [
+        ["css=#nav-menu-item-4370 .edgtf-item-text", "css:finder"],
+        ["xpath=//li[@id='nav-menu-item-4370']/a/span/span/span", "xpath:idRelative"],
+        ["xpath=//div/ul/li[3]/a/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5f5e9aa1-6028-43c4-9390-5875170c23b7",
+    "name": "Testing the slider",
+    "commands": [{
+      "id": "41147da4-6756-4ce9-897c-3ffe59a69a7a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd927f5d-2036-4c76-84ab-e4665b676465",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1217x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44543041-8e77-401b-adc4-a2c463b7532c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav-menu-item-4374 .edgtf-item-text",
+      "targets": [
+        ["css=#nav-menu-item-4374 .edgtf-item-text", "css:finder"],
+        ["xpath=//li[@id='nav-menu-item-4374']/a/span/span/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10aa06df-4054-42da-8cd8-ccc2630d90ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.edgtf-slick-dots",
+      "targets": [
+        ["css=.edgtf-slick-dots", "css:finder"],
+        ["xpath=//div[3]/div/div/div/div/div/div/div/ul", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcf57386-2106-49a0-9431-5a147c70325e",
+      "comment": "",
+      "command": "click",
+      "target": "id=slick-slide02",
+      "targets": [
+        ["id=slick-slide02", "id"],
+        ["css=#slick-slide02", "css:finder"],
+        ["xpath=//li[@id='slick-slide02']", "xpath:attributes"],
+        ["xpath=//div/div/div/ul/li[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "938e6792-0d7f-4ef9-9242-d4b985dd4a6d",
+      "comment": "",
+      "command": "click",
+      "target": "id=slick-slide03",
+      "targets": [
+        ["id=slick-slide03", "id"],
+        ["css=#slick-slide03", "css:finder"],
+        ["xpath=//li[@id='slick-slide03']", "xpath:attributes"],
+        ["xpath=//div/div/div/ul/li[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52c3db41-ae1c-41d8-9ef9-0bc2e10e565d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.edgtf-slick-dots",
+      "targets": [
+        ["css=.edgtf-slick-dots", "css:finder"],
+        ["xpath=//div[3]/div/div/div/div/div/div/div/ul", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19e586cd-8e56-4f2a-9b2d-6cc00c0e067f",
+      "comment": "",
+      "command": "click",
+      "target": "id=slick-slide04",
+      "targets": [
+        ["id=slick-slide04", "id"],
+        ["css=#slick-slide04", "css:finder"],
+        ["xpath=//li[@id='slick-slide04']", "xpath:attributes"],
+        ["xpath=//div/div/ul/li[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ca0cb9e-57e9-49a3-8280-dcaf2f48d933",
+      "comment": "",
+      "command": "click",
+      "target": "id=slick-slide05",
+      "targets": [
+        ["id=slick-slide05", "id"],
+        ["css=#slick-slide05", "css:finder"],
+        ["xpath=//li[@id='slick-slide05']", "xpath:attributes"],
+        ["xpath=//div/div/ul/li[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11e75acd-b756-41a6-96df-5663887ac62f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.edgtf-carousel-item-holder:nth-child(14) img",
+      "targets": [
+        ["css=.edgtf-carousel-item-holder:nth-child(14) img", "css:finder"],
+        ["xpath=(//img[@alt='Game Art'])[2]", "xpath:img"],
+        ["xpath=//div[14]/div/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6a31013-c84c-4ffd-8888-19ddb1275f9c",
+      "comment": "",
+      "command": "click",
+      "target": "id=slick-slide08",
+      "targets": [
+        ["id=slick-slide08", "id"],
+        ["css=#slick-slide08", "css:finder"],
+        ["xpath=//li[@id='slick-slide08']", "xpath:attributes"],
+        ["xpath=//li[9]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "84ddbb24-49da-4540-8699-f75132d8b5a5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://gamanza.com/"],
+  "plugins": []
+}
